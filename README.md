@@ -2,17 +2,13 @@
 
 A Clojure wrapper for the Java implimentation of google-diff-match-patch by Neil Fraser.
 
-## Usage
-
-In project.clj dependencies:
-
-```
+```clojure
 [clj-diffmatchpatch "0.0.9.3"]
 ```
 
-Then:
+## Usage
 
-``` 
+```clojure
 (require '[clj-diffmatchpatch :as dmp])
 (dmp/wdiff "I am an example." "I am a simple example.") 
 ```
@@ -25,18 +21,22 @@ clj-diffmatchpatch is currently in alpha.
 ```
 diff cleanup-semantic pretty-html patch-make patch-to-text patch-from-text patch-apply
 ```
+
 1. Original api functions currently updated to take and output edn instead of java objects / structures: 
 ```
 diff cleanup-semantic
 ```
+
 1. Original api functions currently updated to take edn: 
 ```
 patch-make
 ```
+
 1. Convienience function added: 
 ```
 wdiff
 ```
+
 
 ## License
 

@@ -1,6 +1,6 @@
 (defproject clj-diffmatchpatch "0.0.9.3"
   :description "A Clojure wrapper for the Java implimentation of google-diff-match-patch by Neil Fraser."
-  :url nil
+  :url "https://github.com/mischov/clj-diffmatchpatch"
   :license {:name "Apache License 2.0"
             :url "http://www.apache.org/licenses/LICENSE-2.0"
             :distribution :repo}
